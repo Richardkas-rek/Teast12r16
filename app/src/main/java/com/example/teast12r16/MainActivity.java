@@ -1,5 +1,9 @@
 package com.example.teast12r16;
-
+/**
+ * Richard
+ * API 24
+ * 22/03/2026
+ */
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -45,8 +49,15 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else if (s && t) {
                     layout.setBackgroundColor(Color.parseColor("#9966CC"));
+
                 }
             }
+            /**
+             * כאשר לוחצים על הכפתור, התוכנה בודקת את מצב שני הכפתורים
+             * param s מצב ה-Switch (דלוק/כבוי)
+             * param t מצב ה-ToggleButton (דלוק/כבוי)
+             * return מחזירה את צבע הרקע בהתאם למצב הכפתורים
+             */
         });
     }
 }
